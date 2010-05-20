@@ -1,0 +1,3 @@
+I posted this on github so that continued development can easily happen.
+
+I recently added a fix so that mouse wheel events are only sent to flash when the cursor is over the swf. Previously all wheel events were hijacked meaning that wheel scrolling was disabled on the page except for what it did in the flash widget.
